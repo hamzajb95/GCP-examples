@@ -1,0 +1,1 @@
+gcloud dataproc jobs submit pyspark word-count.py --cluster=lab-cluster --region=us-central1 -- gs://awesome-treat-369215-dp-texts/input/pg2600.txt gs://awesome-treat-369215-dp-texts/output/
